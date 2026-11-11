@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    background-color: rgb(250, 239, 219);
+    position: sticky; top: 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+    transition: 0.4s ease;
+}
+
+a:hover{
+    color: rgb(120, 50, 0);
+}
+
+h1{
+    color: rgb(49, 20, 0);
+    margin-left: 25px;
+    width: 45%;
+    margin-top: 200px;
+    font-size: 70px;
+}
+
+#description{
+    margin-left: 25px;
+    margin-top: 10px;
+    color: rgb(120, 50, 0);
+}
+
+#hero-image{
+    margin-top: -380px;
+    margin-left: 680px;
+    height: 600px;
+}
+
+#explore-btn{
+    border: none;
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(120, 50, 0);
+    color: wheat;
+    border-radius: 15px;
+    font-size: 15px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+#explore-btn:hover{
+    color: black;
+    background-color: chocolate;
+}
+
+#menu-container1 {
+    display: flex;
+    gap: 30px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+
+
+.card{
+    width: 330px;
+    padding: 20px 15px;
+    box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(43, 18, 0);
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 600;
+    color: chocolate;
+    line-height: 2;
+}
+
+.card button{
+    border: none;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(120, 50, 0);
+    color: wheat;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.card button:hover{
+    color: black;
+    background-color: chocolate;
+}
+
+.card small{
+    color: gray;
+}
+
+#menu-container2 {
+    display: flex;
+    gap: 30px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+
+#menu-container3 {
+    display: flex;
+    gap: 30px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: rgb(34, 14, 0);
+    color: wheat;
+    text-align: center;
+    padding: 60px;
+}
